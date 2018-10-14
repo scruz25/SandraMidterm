@@ -1,0 +1,100 @@
+body{
+    background-color: #fefefd;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+h1{color: black;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 700;
+text-align: center;
+font-size: 75px;
+height: 50px;}
+
+
+h2{color:black;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 700;
+text-align: center;
+font-size: 25px;}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 200px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #f3f3f3;
+}
+
+
+div{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 1px 50px;
+}
+
+
+/*ANIMATION*/
+@keyframes color-change{
+    0%{background-color: #E24E42;}
+    25%{background-color: #E9B000;}
+    50% {background-color: #EB6E80;}
+    75% {background-color: #008f95;}
+}
+
+
+
+@keyframes color-move{
+    0% {background-color:#E24E42 ;left:0px; top:0px;}
+    20%{background-color:#E9B000 ;left:200px;top:0px;}
+    45% {background-color: #EB6E80;left: 200px;top:200px;}
+    80% {background-color: #008f95;left:0px;top:200px;}
+    100% {background-color: #E24E42;left:0px;top:0px;}
+}
+
+
+#test {
+    width:68%;
+    height:5px;
+    background-color:#E24E42;
+    position: relative;
+    margin:auto;
+
+animation-name: color-change;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+
+
+
+
+

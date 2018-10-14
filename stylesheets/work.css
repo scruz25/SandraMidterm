@@ -1,0 +1,87 @@
+body{
+    background-color: #fefefd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+h1{color: black;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 700;
+text-align: center;
+font-size: 75px;
+height: 50px;
+}
+
+
+h2{color:black;
+font-family: 'Shadows Into Light', cursive;
+font-weight: 700;
+text-align: center;
+font-size: 25px;}
+
+/*NAV BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 200px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #f3f3f3;
+}
+
+/*FINALLY GOT THE IMAGES CENTERED...DON'T TOUCH*/
+
+div{display: block;
+    color: #666;
+    text-align: center;
+    padding: 1px 50px
+  }
+
+
+
+/* ATTEMPT AT HOVER EFFECT ON IMAGES*/
+
+.ParentDiv{
+    width: 100px;
+    height: 300px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+img{
+    filter: blur(0.8px);
+    opacity:1;
+    transition: 0.5s ease;
+    width:300px;
+    height: 320px;
+}
+
+img:hover{filter: blur(0px);
+cursor: pointer;
+}
+
+
