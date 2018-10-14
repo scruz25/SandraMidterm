@@ -85,3 +85,37 @@ cursor: pointer;
 }
 
 
+
+/*ANIMATION*/
+@keyframes color-change{
+    0%{background-color: #E24E42;}
+    25%{background-color: #E9B000;}
+    50% {background-color: #EB6E80;}
+    75% {background-color: #008f95;}
+}
+
+
+
+@keyframes color-move{
+    0% {background-color:#E24E42 ;left:0px; top:0px;}
+    20%{background-color:#E9B000 ;left:200px;top:0px;}
+    45% {background-color: #EB6E80;left: 200px;top:200px;}
+    80% {background-color: #008f95;left:0px;top:200px;}
+    100% {background-color: #E24E42;left:0px;top:0px;}
+}
+
+
+#test {
+    width:68%;
+    height:5px;
+    background-color:#E24E42;
+    position: relative;
+    margin:auto;
+
+animation-name: color-change;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+
+
